@@ -12,6 +12,8 @@ Screenshot
 Details
 -------
 
-* Requirements: Python 3 must be installed
+* Requirements: Python 3 
 * Start with: ./RUN.ps1
-
+* Version: copyparty 1.20.14
+* Theme: [White-gold](https://github.com/romaan7/white-gold-theme-for-copyparty)
+* Manual: [command-line options](https://copyparty.eu/cli/)
