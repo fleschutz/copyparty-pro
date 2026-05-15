@@ -1,7 +1,7 @@
-Fileserver Copyparty + Pro Theme
-================================
+Copyparty + Pro Theme
+=====================
 
-Combination of [copyparty](https://github.com/9001/copyparty) with a professional-looking, dark theme — swaps out all the emoji icons for Font Awesome, brings in a warm zinc + gold color scheme, and tidies up the layout. No original files are touched; it's all done through copyparty's built-in CSS/JS injection flags.
+3-in-1 repo of fileserver [copyparty](https://github.com/9001/copyparty) + professional-looking, dark theme + startup script. The theme swaps out all the emoji icons for Font Awesome, brings in a warm zinc + gold color scheme, and tidies up the layout. No original files are touched; it's all done through copyparty's built-in CSS/JS injection flags.
 
 Screenshot
 ----------
