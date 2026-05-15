@@ -12,10 +12,10 @@ Screenshot
 Details
 -------
 
-* Start with: ./RUN.ps1
-* Requirements: Python (version 2 or 3)
-* Web port: http://localhost:3923 (by default)
-* Version: copyparty 1.20.14
-* Protocols: http(s), webdav, sftp, ftp(s), tftp, and smb/cifs supported
-* Theme: [White-gold](https://github.com/romaan7/white-gold-theme-for-copyparty)
-* Manuals: [quickstart](https://github.com/9001/copyparty#quickstart), [command-line options](https://copyparty.eu/cli/)
+* **Start**: `./RUN.ps1`
+* **Requirements:** Python (version 2 or 3)
+* **Port:** http://localhost:3923 (by default)
+* **Version:** copyparty 1.20.14
+* **Protocols:** http(s), webdav, sftp, ftp(s), tftp, and smb/cifs supported
+* **Theme:** [White-gold](https://github.com/romaan7/white-gold-theme-for-copyparty)
+* **Manuals:** [quickstart](https://github.com/9001/copyparty#quickstart), [command-line options](https://copyparty.eu/cli/)
