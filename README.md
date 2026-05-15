@@ -12,8 +12,9 @@ Screenshot
 Details
 -------
 
-* Requirements: Python 3 
 * Start with: ./RUN.ps1
+* Requirements: Python (version 2 or 3)
 * Version: copyparty 1.20.14
+* Protocols: http(s), webdav, sftp, ftp(s), tftp, and smb/cifs supported
 * Theme: [White-gold](https://github.com/romaan7/white-gold-theme-for-copyparty)
-* Manual: [command-line options](https://copyparty.eu/cli/)
+* Manuals: [quickstart](https://github.com/9001/copyparty#quickstart), [command-line options](https://copyparty.eu/cli/)
