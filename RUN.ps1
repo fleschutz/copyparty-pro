@@ -1,14 +1,21 @@
 <#
 .SYNOPSIS
-        Starts copyparty with a professional-looking, dark theme
+        Starts fileserver 'copyparty' with a professional-looking, dark theme
+.NOTE
+	See https://copyparty.eu/cli explaining the command-line options
 #>
 
-Write-Output "Starting 'copyparty' with a white-gold theme..."
+"Starting 'copyparty' with a white-gold theme in the background..."
 
 & nohup python3 ./theme/copyparty-en.py `
--p 3923 `
---html-head '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">' `
---js-browser theme/white-gold.js `
---css-browser theme/white-gold.css
+  -v /media/hdd8tb/Media:/:r `
+  -v ./theme:/.theme:r `
+  -p 3923 `
+  --name Fileserver `
+  --localtime `
+  --js-browser /.theme/white-gold.js `
+  --css-browser /.theme/white-gold.css `
+  --html-head '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">' 
 
-# HINT: see https://copyparty.eu/cli explaining the command-line options
+"Done."
+
